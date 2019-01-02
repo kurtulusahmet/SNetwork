@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6413694821DD44A400E26FDB /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413694721DD44A400E26FDB /* HTTPMethod.swift */; };
+		6413694A21DD453400E26FDB /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413694921DD453400E26FDB /* Request.swift */; };
+		6413694C21DD459700E26FDB /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413694B21DD459700E26FDB /* Protocols.swift */; };
+		6413695221DD479000E26FDB /* SNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413695121DD479000E26FDB /* SNetwork.swift */; };
 		648CC52A21DC032800C4929A /* SNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648CC52021DC032800C4929A /* SNetwork.framework */; };
 		648CC52F21DC032800C4929A /* SNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CC52E21DC032800C4929A /* SNetworkTests.swift */; };
 		648CC53121DC032800C4929A /* SNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 648CC52321DC032800C4929A /* SNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		648CC53B21DC036100C4929A /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CC53A21DC036100C4929A /* TestClass.swift */; };
+		6CC33B6D3C608C4D05A7F9FA /* libPods-SNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6AA3FFFF26E3A730BED88B7 /* libPods-SNetwork.a */; };
+		78BE1362130D79C83C6E870F /* libPods-SNetworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8F9ADCFABD2CE9D77863AC /* libPods-SNetworkTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E6A1C8CFCC538F7B59A2965 /* Pods-SNetworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNetworkTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SNetworkTests/Pods-SNetworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A8F9ADCFABD2CE9D77863AC /* libPods-SNetworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNetworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6413694721DD44A400E26FDB /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		6413694921DD453400E26FDB /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		6413694B21DD459700E26FDB /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		6413695121DD479000E26FDB /* SNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNetwork.swift; sourceTree = "<group>"; };
 		648CC52021DC032800C4929A /* SNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		648CC52321DC032800C4929A /* SNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNetwork.h; sourceTree = "<group>"; };
 		648CC52421DC032800C4929A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +43,10 @@
 		648CC52E21DC032800C4929A /* SNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNetworkTests.swift; sourceTree = "<group>"; };
 		648CC53021DC032800C4929A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		648CC53A21DC036100C4929A /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		AD00CCA941B823C8DACD4B6E /* Pods-SNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNetwork.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SNetwork/Pods-SNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		E5D71186A02D5596C62F364B /* Pods-SNetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNetworkTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SNetworkTests/Pods-SNetworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6AA3FFFF26E3A730BED88B7 /* libPods-SNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8AC3A2ED64B8C8C049A2D7 /* Pods-SNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNetwork.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SNetwork/Pods-SNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CC33B6D3C608C4D05A7F9FA /* libPods-SNetwork.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,18 +63,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				648CC52A21DC032800C4929A /* SNetwork.framework in Frameworks */,
+				78BE1362130D79C83C6E870F /* libPods-SNetworkTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46628165BF1E73D3C3052699 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6AA3FFFF26E3A730BED88B7 /* libPods-SNetwork.a */,
+				4A8F9ADCFABD2CE9D77863AC /* libPods-SNetworkTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		648CC51621DC032800C4929A = {
 			isa = PBXGroup;
 			children = (
 				648CC52221DC032800C4929A /* SNetwork */,
 				648CC52D21DC032800C4929A /* SNetworkTests */,
 				648CC52121DC032800C4929A /* Products */,
+				D3A6F5F2BD81AAAD61CA7292 /* Pods */,
+				46628165BF1E73D3C3052699 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +105,10 @@
 				648CC52321DC032800C4929A /* SNetwork.h */,
 				648CC52421DC032800C4929A /* Info.plist */,
 				648CC53A21DC036100C4929A /* TestClass.swift */,
+				6413694721DD44A400E26FDB /* HTTPMethod.swift */,
+				6413694921DD453400E26FDB /* Request.swift */,
+				6413694B21DD459700E26FDB /* Protocols.swift */,
+				6413695121DD479000E26FDB /* SNetwork.swift */,
 			);
 			path = SNetwork;
 			sourceTree = "<group>";
@@ -87,6 +120,17 @@
 				648CC53021DC032800C4929A /* Info.plist */,
 			);
 			path = SNetworkTests;
+			sourceTree = "<group>";
+		};
+		D3A6F5F2BD81AAAD61CA7292 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB8AC3A2ED64B8C8C049A2D7 /* Pods-SNetwork.debug.xcconfig */,
+				AD00CCA941B823C8DACD4B6E /* Pods-SNetwork.release.xcconfig */,
+				1E6A1C8CFCC538F7B59A2965 /* Pods-SNetworkTests.debug.xcconfig */,
+				E5D71186A02D5596C62F364B /* Pods-SNetworkTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +151,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 648CC53421DC032800C4929A /* Build configuration list for PBXNativeTarget "SNetwork" */;
 			buildPhases = (
+				579D237A03E3D79D2970AABC /* [CP] Check Pods Manifest.lock */,
 				648CC51B21DC032800C4929A /* Headers */,
 				648CC51C21DC032800C4929A /* Sources */,
 				648CC51D21DC032800C4929A /* Frameworks */,
@@ -125,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 648CC53721DC032800C4929A /* Build configuration list for PBXNativeTarget "SNetworkTests" */;
 			buildPhases = (
+				01A357E5B38DDEAA5FCCA32B /* [CP] Check Pods Manifest.lock */,
 				648CC52521DC032800C4929A /* Sources */,
 				648CC52621DC032800C4929A /* Frameworks */,
 				648CC52721DC032800C4929A /* Resources */,
@@ -193,12 +239,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01A357E5B38DDEAA5FCCA32B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNetworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		579D237A03E3D79D2970AABC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		648CC51C21DC032800C4929A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6413695221DD479000E26FDB /* SNetwork.swift in Sources */,
+				6413694821DD44A400E26FDB /* HTTPMethod.swift in Sources */,
+				6413694A21DD453400E26FDB /* Request.swift in Sources */,
 				648CC53B21DC036100C4929A /* TestClass.swift in Sources */,
+				6413694C21DD459700E26FDB /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +442,7 @@
 		};
 		648CC53521DC032800C4929A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8AC3A2ED64B8C8C049A2D7 /* Pods-SNetwork.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -372,6 +470,7 @@
 		};
 		648CC53621DC032800C4929A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD00CCA941B823C8DACD4B6E /* Pods-SNetwork.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -398,6 +497,7 @@
 		};
 		648CC53821DC032800C4929A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6A1C8CFCC538F7B59A2965 /* Pods-SNetworkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -417,6 +517,7 @@
 		};
 		648CC53921DC032800C4929A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D71186A02D5596C62F364B /* Pods-SNetworkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

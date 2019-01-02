@@ -1,0 +1,6 @@
+module Pods_SNetwork {
+  umbrella header "Pods-SNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

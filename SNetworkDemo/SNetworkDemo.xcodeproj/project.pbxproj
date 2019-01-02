@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06F3863E6926257C45BD7CAB /* libPods-SNetworkDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5042EBEF9C866EC0717D02C /* libPods-SNetworkDemoTests.a */; };
 		648CC4E921DC02F100C4929A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CC4E821DC02F100C4929A /* AppDelegate.swift */; };
 		648CC4EB21DC02F100C4929A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CC4EA21DC02F100C4929A /* ViewController.swift */; };
 		648CC4EE21DC02F100C4929A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648CC4EC21DC02F100C4929A /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		648CC4FE21DC02F200C4929A /* SNetworkDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CC4FD21DC02F200C4929A /* SNetworkDemoTests.swift */; };
 		648CC50921DC02F200C4929A /* SNetworkDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CC50821DC02F200C4929A /* SNetworkDemoUITests.swift */; };
 		648CC54721DC03B600C4929A /* SNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648CC54321DC03AC00C4929A /* SNetwork.framework */; };
+		6E57C408D4EE134034918CF1 /* libPods-SNetworkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C14C9B57F9A6001563C7666C /* libPods-SNetworkDemo.a */; };
+		B20AF482B1FD6545E9F75073 /* libPods-SNetworkDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 598D1E9713A12AC90DBA1675 /* libPods-SNetworkDemoUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		156BC072FD40EE98E8DA38B7 /* Pods-SNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNetworkDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SNetworkDemo/Pods-SNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		315F615D2EB9107809502E87 /* Pods-SNetworkDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNetworkDemoTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SNetworkDemoTests/Pods-SNetworkDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		477F68F51288B18FCA275004 /* Pods-SNetworkDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNetworkDemoUITests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SNetworkDemoUITests/Pods-SNetworkDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		598D1E9713A12AC90DBA1675 /* libPods-SNetworkDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNetworkDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB7CD3915963DDB57BAA46D /* Pods-SNetworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNetworkDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SNetworkDemo/Pods-SNetworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		648CC4E521DC02F100C4929A /* SNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		648CC4E821DC02F100C4929A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		648CC4EA21DC02F100C4929A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 		648CC50821DC02F200C4929A /* SNetworkDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNetworkDemoUITests.swift; sourceTree = "<group>"; };
 		648CC50A21DC02F200C4929A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		648CC53D21DC03AC00C4929A /* SNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SNetwork.xcodeproj; path = ../SNetwork/SNetwork.xcodeproj; sourceTree = "<group>"; };
+		C14C9B57F9A6001563C7666C /* libPods-SNetworkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNetworkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5042EBEF9C866EC0717D02C /* libPods-SNetworkDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNetworkDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2329DC8AFD305E6656D891 /* Pods-SNetworkDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNetworkDemoUITests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SNetworkDemoUITests/Pods-SNetworkDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F2E1D174FCA2E7C75E02D4AE /* Pods-SNetworkDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNetworkDemoTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SNetworkDemoTests/Pods-SNetworkDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				648CC54721DC03B600C4929A /* SNetwork.framework in Frameworks */,
+				6E57C408D4EE134034918CF1 /* libPods-SNetworkDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F3863E6926257C45BD7CAB /* libPods-SNetworkDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,12 +99,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20AF482B1FD6545E9F75073 /* libPods-SNetworkDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		207D6B47856AA62EC97BFCEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CB7CD3915963DDB57BAA46D /* Pods-SNetworkDemo.debug.xcconfig */,
+				156BC072FD40EE98E8DA38B7 /* Pods-SNetworkDemo.release.xcconfig */,
+				315F615D2EB9107809502E87 /* Pods-SNetworkDemoTests.debug.xcconfig */,
+				F2E1D174FCA2E7C75E02D4AE /* Pods-SNetworkDemoTests.release.xcconfig */,
+				477F68F51288B18FCA275004 /* Pods-SNetworkDemoUITests.debug.xcconfig */,
+				DD2329DC8AFD305E6656D891 /* Pods-SNetworkDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		648CC4DC21DC02F100C4929A = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +127,8 @@
 				648CC4FC21DC02F200C4929A /* SNetworkDemoTests */,
 				648CC50721DC02F200C4929A /* SNetworkDemoUITests */,
 				648CC4E621DC02F100C4929A /* Products */,
+				207D6B47856AA62EC97BFCEE /* Pods */,
+				AE1B8055891D4CE121AAA276 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,6 +190,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		AE1B8055891D4CE121AAA276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C14C9B57F9A6001563C7666C /* libPods-SNetworkDemo.a */,
+				C5042EBEF9C866EC0717D02C /* libPods-SNetworkDemoTests.a */,
+				598D1E9713A12AC90DBA1675 /* libPods-SNetworkDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 648CC50D21DC02F200C4929A /* Build configuration list for PBXNativeTarget "SNetworkDemo" */;
 			buildPhases = (
+				7F385A951369538B6B500A8C /* [CP] Check Pods Manifest.lock */,
 				648CC4E121DC02F100C4929A /* Sources */,
 				648CC4E221DC02F100C4929A /* Frameworks */,
 				648CC4E321DC02F100C4929A /* Resources */,
@@ -184,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 648CC51021DC02F200C4929A /* Build configuration list for PBXNativeTarget "SNetworkDemoTests" */;
 			buildPhases = (
+				CF980ED047BEA99CA21EE690 /* [CP] Check Pods Manifest.lock */,
 				648CC4F521DC02F200C4929A /* Sources */,
 				648CC4F621DC02F200C4929A /* Frameworks */,
 				648CC4F721DC02F200C4929A /* Resources */,
@@ -202,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 648CC51321DC02F200C4929A /* Build configuration list for PBXNativeTarget "SNetworkDemoUITests" */;
 			buildPhases = (
+				AE988270EA111F34BD8D9587 /* [CP] Check Pods Manifest.lock */,
 				648CC50021DC02F200C4929A /* Sources */,
 				648CC50121DC02F200C4929A /* Frameworks */,
 				648CC50221DC02F200C4929A /* Resources */,
@@ -308,6 +351,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F385A951369538B6B500A8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNetworkDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE988270EA111F34BD8D9587 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNetworkDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF980ED047BEA99CA21EE690 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNetworkDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		648CC4E121DC02F100C4929A /* Sources */ = {
@@ -488,6 +600,7 @@
 		};
 		648CC50E21DC02F200C4929A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB7CD3915963DDB57BAA46D /* Pods-SNetworkDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -506,6 +619,7 @@
 		};
 		648CC50F21DC02F200C4929A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156BC072FD40EE98E8DA38B7 /* Pods-SNetworkDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -524,6 +638,7 @@
 		};
 		648CC51121DC02F200C4929A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315F615D2EB9107809502E87 /* Pods-SNetworkDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -545,6 +660,7 @@
 		};
 		648CC51221DC02F200C4929A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2E1D174FCA2E7C75E02D4AE /* Pods-SNetworkDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -566,6 +682,7 @@
 		};
 		648CC51421DC02F200C4929A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477F68F51288B18FCA275004 /* Pods-SNetworkDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -586,6 +703,7 @@
 		};
 		648CC51521DC02F200C4929A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2329DC8AFD305E6656D891 /* Pods-SNetworkDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
