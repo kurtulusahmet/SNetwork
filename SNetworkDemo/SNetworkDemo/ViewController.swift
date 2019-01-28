@@ -14,9 +14,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        TestClass.testRun()
+        guard let baseUrl = URL(string: "https://randomuser.me") else {
+            return
+        }
+        
+        let userRequestModel = RandomUserRequest(baseUrl: baseUrl, path: "/api/")
+        SNetwork.requestMethod(requestModel: userRequestModel, responseModelProto: UserResponseModel.self, onSuccess: { (user) in
+            print(user.results[0].name.first!)
+        }) { (error) in
+            print(error.localizedDescription)
+        }
     }
-
-
 }
 

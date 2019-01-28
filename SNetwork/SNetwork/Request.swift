@@ -9,6 +9,7 @@
 import Foundation
 
 public struct Request {
+    public var baseUrl: URL?
     public var path: String?
     public var method: HTTPMethod?
     public var params: [String: Any?]?
@@ -17,11 +18,13 @@ public struct Request {
     public init () {}
     
     public init (
+        baseUrl: URL,
         path: String,
         method: HTTPMethod = .get,
         params: [String: Any?]? = nil,
         headers: [String: String]? = nil
         ) {
+        self.baseUrl = baseUrl
         self.path = path
         self.method = method
         self.params = params
